@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+  max-width: 1200px;
+  width: 100%;
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.light{
+  --color-primary: #b82727;
+  --color-secondary: #ffff;
+  --color-muted: #f4e7e7;
+  --color-text: #101728;
+}
+
+.light body{
+  background-color: var(--color-secondary);
+}
+
+.dark{
+  --color-primary: #b82727;
+  --color-secondary: #180606;
+  --color-muted: #301414;
+  --color-text: #ffff;
+}
+
+.dark body{
+  background-color: var(--color-secondary);
+}
+
+:root a:visited{
+  color: #997dcf;
+}
+
+:root a:link{
+  color: #3366CC;
+}

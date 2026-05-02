@@ -1,0 +1,16 @@
+.NewsPage{
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    margin-top: 50px;
+}
+
+.ArticleListing{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.ArticleListing a{
+    text-decoration: none;
+}

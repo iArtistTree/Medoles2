@@ -1,0 +1,12 @@
+.InfoPage{
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    margin-top: 50px;
+    display: flex;
+}
+
+.InfoCard{
+    float: right;
+    background-color: var(--color-secondary) !important;
+    color: var(--color-text) !important;
+}

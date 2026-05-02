@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    height: 70px;
+    background-color: var(--color-primary);
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 2rem;
+}
+
+.navbar ul{
+    margin: auto;
+    display: flex;
+    list-style-type: none;
+    gap: 3rem;
+}
+
+nav.navbar a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+nav.navbar a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    max-height: 50px;
+
+}
+
+.title{
+    color: white;
+}
+
+.citizenButton{
+    color: var(--color-primary);
+    background-color: white;
+}

@@ -1,0 +1,13 @@
+.formArea{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.applicationPage{
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+}
